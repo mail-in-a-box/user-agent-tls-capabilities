@@ -10,3 +10,5 @@ Qualys has collected data on 36 clients (e.g. Chrome, Android, OpenSSL) includin
 * Other protocol details (e.g. support for Server Name Indication (SNI)).
 
 You'll find this scraped and stored in this repository as [clients.json](clients.json) and [clients.csv](clients.csv), with additional cipher information in [ciphers.json](ciphers.json).
+
+I've also copied [Mozilla's cipher name correspondence table](https://wiki.mozilla.org/Security/Server_Side_TLS) into [cipher_names.csv](cipher_names.csv).
