@@ -8,7 +8,7 @@ ciphers = json.load(open("ciphers.json"))
 clients = json.load(open("clients.json"))
 
 # Get the non-insecure ciphers.
-all_ciphers = set(cipher['name'] for cipher in ciphers if cipher['notes'] != "INSECURE")
+all_ciphers = set(cipher['iana'] for cipher in ciphers if cipher['notes'] != "INSECURE")
 
 # Compute a single linear order for ciphers, like a rough
 # master preference order, just for the sake of making

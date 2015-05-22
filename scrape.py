@@ -4,6 +4,7 @@
 # information into clients.json and ciphers.json.
 ###########################################################################
 
+import csv
 import re
 import json
 from collections import OrderedDict
@@ -14,8 +15,13 @@ def fetch_page(url):
 	html = urllib.request.urlopen(url).read()
 	return BeautifulSoup(html)
 
-cipher_info = [ ]
-client_data = [ ]
+# Helper data.
+
+cipher_names = { }
+for cipher in csv.DictReader(open("cipher_names.csv")):
+	cipher_names[cipher["IANA"]] = cipher
+	# not sure why there are some multi-line values, use first line:
+	cipher["OpenSSL"] = cipher["OpenSSL"].split("\n")[0]
 
 protocol_detail_keys = {
 	"OCSP stapling": "ocsp_staping",
@@ -29,6 +35,11 @@ protocol_detail_keys = {
 	"TLS compression": "tls_compression",
 	"Signature algorithms": "signature_algo",
 }
+
+# Begin Scrape
+
+cipher_info = [ ]
+client_data = [ ]
 
 client_list_url = "https://dev.ssllabs.com/ssltest/clients.html"
 client_list = fetch_page(client_list_url)
@@ -67,14 +78,17 @@ for client_anchor in client_list.find_all('a'):
 
 			# Cipher info is the same across all clients...
 			cipher_info.append(OrderedDict([
-				("name", cipher_name),
+				("iana", cipher_name),
+				("openssl", cipher_names.get(cipher_name, {}).get("OpenSSL")),
+				("gnutls", cipher_names.get(cipher_name, {}).get("GnuTLS")),
+				("nss", cipher_names.get(cipher_name, {}).get("NSS")),
 				("code", cipher_hex),
 				("bits", cipher_bits),
 				("notes", cipher_notes),
 			]))
 
 		# Parse protocol details.
-		protocol_details = { }
+		protocol_details = OrderedDict()
 		for tr in details_table.find_all('tr'):
 			if "Protocol Details" in tr.text: continue # header
 			key, value = tr.find_all('td')
@@ -96,7 +110,7 @@ for client_anchor in client_list.find_all('a'):
 		]))
 
 # Sort ciphers.
-cipher_info.sort(key = lambda x : x['name'])
+cipher_info.sort(key = lambda x : x['iana'])
 
 with open("ciphers.json", "w") as f:
 	json.dump(cipher_info, f, indent=2)

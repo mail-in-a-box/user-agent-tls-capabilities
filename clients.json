@@ -29,19 +29,19 @@
     ],
     "details": {
       "sni": "No",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "-"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -86,16 +86,13 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "Yes \u00a0 INSECURE",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "Yes \u00a0 INSECURE",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "sect163k1",
         "sect163r1",
@@ -122,7 +119,10 @@
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -173,16 +173,13 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "Yes \u00a0 INSECURE",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "Yes \u00a0 INSECURE",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "sect571r1",
         "sect571k1",
@@ -209,7 +206,10 @@
         "secp160k1",
         "secp160r1",
         "secp160r2"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -260,16 +260,13 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "sect571r1",
         "sect571k1",
@@ -296,7 +293,10 @@
         "secp160k1",
         "secp160r1",
         "secp160r2"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -347,16 +347,13 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "sect571r1",
         "sect571k1",
@@ -383,7 +380,10 @@
         "secp160k1",
         "secp160r1",
         "secp160r2"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -440,10 +440,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -462,14 +462,14 @@
         "SHA1/ECDSA",
         "MD5/RSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp521r1",
         "secp384r1",
         "secp256r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -516,10 +516,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -538,14 +538,14 @@
         "SHA1/ECDSA",
         "MD5/RSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp521r1",
         "secp384r1",
         "secp256r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -598,21 +598,21 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -711,10 +711,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "Yes \u00a0 INSECURE",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "Yes \u00a0 INSECURE",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -733,9 +733,6 @@
         "SHA1/ECDSA",
         "MD5/RSA"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "sect571r1",
         "sect571k1",
@@ -762,7 +759,10 @@
         "secp160k1",
         "secp160r1",
         "secp160r2"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -801,10 +801,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "Yes",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/ECDSA",
@@ -817,13 +817,13 @@
         "SHA1/RSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "Yes",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -864,10 +864,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "SHA256/RSA",
         "SHA384/RSA",
@@ -878,14 +878,14 @@
         "SHA256/DSA",
         "SHA1/DSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -914,10 +914,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "Yes",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "SHA256/RSA",
         "SHA384/RSA",
@@ -928,14 +928,14 @@
         "SHA256/DSA",
         "SHA1/DSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "Yes",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -975,10 +975,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -996,9 +996,6 @@
         "SHA1/DSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "sect571r1",
         "sect571k1",
@@ -1025,7 +1022,10 @@
         "secp160k1",
         "secp160r1",
         "secp160r2"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1060,19 +1060,19 @@
     ],
     "details": {
       "sni": "No",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "Yes",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "-"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "Yes"
     }
   },
   {
@@ -1101,21 +1101,21 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1143,19 +1143,19 @@
     ],
     "details": {
       "sni": "No",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "-"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1184,20 +1184,20 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1241,10 +1241,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/ECDSA",
@@ -1256,14 +1256,14 @@
         "SHA1/ECDSA",
         "SHA1/DSA"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1305,10 +1305,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "Yes",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "SHA256/RSA",
         "SHA384/RSA",
@@ -1320,13 +1320,13 @@
         "SHA1/ECDSA",
         "SHA1/DSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "Yes",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1355,20 +1355,20 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1411,10 +1411,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "Yes",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "SHA256/RSA",
         "SHA384/RSA",
@@ -1424,13 +1424,13 @@
         "SHA1/ECDSA",
         "SHA1/DSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "Yes",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1468,19 +1468,19 @@
     ],
     "details": {
       "sni": "No",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "Yes",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "-"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "Yes"
     }
   },
   {
@@ -1518,16 +1518,13 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "sect163k1",
@@ -1554,7 +1551,10 @@
         "secp224k1",
         "sect239k1",
         "secp256k1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1607,10 +1607,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA512/ECDSA",
         "SHA512/RSA",
@@ -1625,9 +1625,6 @@
         "SHA1/DSA",
         "MD5/RSA"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "sect163k1",
@@ -1654,7 +1651,10 @@
         "secp224k1",
         "sect239k1",
         "secp256k1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1692,19 +1692,19 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "-"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1797,10 +1797,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -1818,9 +1818,6 @@
         "SHA1/DSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "sect571r1",
         "sect571k1",
@@ -1847,7 +1844,10 @@
         "secp160k1",
         "secp160r1",
         "secp160r2"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -1964,10 +1964,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "Yes",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "Yes",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -1985,9 +1985,6 @@
         "SHA1/DSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "sect571r1",
         "sect571k1",
@@ -2017,7 +2014,10 @@
         "secp160k1",
         "secp160r1",
         "secp160r2"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "Yes",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2069,21 +2069,21 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "No \u00a0 INSECURE",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2146,10 +2146,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2157,14 +2157,14 @@
         "SHA256/ECDSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2206,21 +2206,21 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "-"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2276,10 +2276,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2287,14 +2287,14 @@
         "SHA256/ECDSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2350,10 +2350,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2361,14 +2361,14 @@
         "SHA256/ECDSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2424,10 +2424,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2435,14 +2435,14 @@
         "SHA256/ECDSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2498,10 +2498,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "No",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2509,14 +2509,14 @@
         "SHA256/ECDSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "No",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "Yes",
       "elliptic_curves": [
         "secp256r1",
         "secp384r1",
         "secp521r1"
-      ]
+      ],
+      "next_proto_reneg": "Yes",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2609,10 +2609,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -2631,13 +2631,13 @@
         "SHA1/ECDSA",
         "MD5/RSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "secp384r1",
         "secp256r1"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   },
   {
@@ -2727,10 +2727,10 @@
     ],
     "details": {
       "sni": "Yes",
-      "tls_compression": "No",
-      "app_level_proto_reneg": "No",
       "secure_reneg": "Yes",
-      "ssl2_handshake_compat": "No",
+      "tls_compression": "No",
+      "session_tickets": "Yes",
+      "ocsp_staping": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -2748,9 +2748,6 @@
         "SHA1/DSA",
         "SHA1/ECDSA"
       ],
-      "session_tickets": "Yes",
-      "ocsp_staping": "No",
-      "next_proto_reneg": "No",
       "elliptic_curves": [
         "sect571r1",
         "sect571k1",
@@ -2777,7 +2774,10 @@
         "secp160k1",
         "secp160r1",
         "secp160r2"
-      ]
+      ],
+      "next_proto_reneg": "No",
+      "app_level_proto_reneg": "No",
+      "ssl2_handshake_compat": "No"
     }
   }
 ]
