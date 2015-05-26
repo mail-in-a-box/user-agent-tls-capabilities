@@ -53,7 +53,7 @@ clients.sort(key = rank_client, reverse=True)
 
 # Write a nice CSV.
 protocols = list(reversed(['SSL 2', 'SSL 3', 'TLS 1.0', 'TLS 1.1', 'TLS 1.2']))
-protocol_details = ["ocsp_staping", "sni", "secure_reneg", "next_proto_reneg", "app_level_proto_reneg", "session_tickets", "ssl2_handshake_compat", "tls_compression" ]
+protocol_details = ["ocsp_stapling", "sni", "secure_reneg", "next_proto_reneg", "app_level_proto_reneg", "session_tickets", "ssl2_handshake_compat", "tls_compression" ]
 with open("clients.csv", "w") as f:
 	w = csv.writer(f)
 	w.writerow(["client name", "version", "platform"] + protocols + cipher_order + protocol_details)

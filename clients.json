@@ -32,7 +32,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -89,7 +89,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "Yes \u00a0 INSECURE",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -176,7 +176,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "Yes \u00a0 INSECURE",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -263,7 +263,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -350,7 +350,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -443,7 +443,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -519,7 +519,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -601,7 +601,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -714,7 +714,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "Yes \u00a0 INSECURE",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -804,7 +804,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/ECDSA",
@@ -867,7 +867,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "SHA256/RSA",
         "SHA384/RSA",
@@ -917,7 +917,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "SHA256/RSA",
         "SHA384/RSA",
@@ -978,7 +978,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -1063,7 +1063,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -1104,7 +1104,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "-"
       ],
@@ -1146,7 +1146,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -1187,7 +1187,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "-"
       ],
@@ -1244,7 +1244,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/ECDSA",
@@ -1308,7 +1308,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "SHA256/RSA",
         "SHA384/RSA",
@@ -1358,7 +1358,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "-"
       ],
@@ -1414,7 +1414,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "SHA256/RSA",
         "SHA384/RSA",
@@ -1471,7 +1471,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -1521,7 +1521,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -1610,7 +1610,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA512/ECDSA",
         "SHA512/RSA",
@@ -1695,7 +1695,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -1800,7 +1800,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -1967,7 +1967,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "Yes",
+      "ocsp_stapling": "Yes",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -2072,7 +2072,7 @@
       "secure_reneg": "No \u00a0 INSECURE",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -2149,7 +2149,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2209,7 +2209,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "-"
       ],
@@ -2279,7 +2279,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2353,7 +2353,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2427,7 +2427,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2501,7 +2501,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "No",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA384/RSA",
         "SHA256/RSA",
@@ -2612,7 +2612,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",
@@ -2730,7 +2730,7 @@
       "secure_reneg": "Yes",
       "tls_compression": "No",
       "session_tickets": "Yes",
-      "ocsp_staping": "No",
+      "ocsp_stapling": "No",
       "signature_algo": [
         "SHA512/RSA",
         "SHA512/DSA",

@@ -24,7 +24,7 @@ for cipher in csv.DictReader(open("cipher_names.csv")):
 	cipher["OpenSSL"] = cipher["OpenSSL"].split("\n")[0]
 
 protocol_detail_keys = {
-	"OCSP stapling": "ocsp_staping",
+	"OCSP stapling": "ocsp_stapling",
 	"Server Name Indication (SNI)": "sni",
 	"Secure Renegotiation": "secure_reneg",
 	"Next Protocol Negotiation": "next_proto_reneg",
